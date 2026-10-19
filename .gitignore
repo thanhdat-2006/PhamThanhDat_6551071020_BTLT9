@@ -1,9 +1,10 @@
-bin/
-obj/
-Logs/
-appsettings.json
-appsettings.Development.json
-!appsettings.example.json
-publish/
-*.user
+**/bin/
+**/obj/
+**/Logs/
+**/*.user
 .vscode/
+
+# Ẩn file kết nối có mật khẩu thật, chỉ giữ file mẫu
+**/appsettings.json
+**/appsettings.Development.json
+!**/appsettings.example.json
